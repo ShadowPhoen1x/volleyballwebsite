@@ -1,3 +1,9 @@
+/* page 1 css starts here */
+
+
+/* page 1 css ends here */
+
+/* page 2 starts here */
 #net{
     background-image: url(../images/court.jpeg) ;
     background-color: #ccc;
@@ -5,20 +11,63 @@
     height: auto;
 }
 article {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background: grey;
     margin: 10px auto;
-    padding: 20px;
+    padding: 10px;
     overflow: scroll;
     text-align: center;
     box-shadow: 20px;
+    opacity: 70%;
+}
+article > img{
+    width: 350px;
+    height: 200px;
+    margin: auto;
 }
 .floatleft{
     float: left;
     margin: 10px;
 }
 article:hover{
-    transition-duration: 1s;
-    transform: scale(1.05);
+    transition-duration: 0.5s;
+    transform: scale(1.10);
+    opacity: 100%;
 }
+#wing{
+    position: absolute;
+    top: 50px;
+    left: 200px
+}
+#middle{
+    position: absolute;
+    top: 50px;
+    left: 1000px
+}
+#opposite{
+    position: absolute;
+    top: 50px;
+    right: 300px
+}
+#back1{
+    position: absolute;
+    top: 600px;
+    right: 300px
+}
+#back6{
+    position: absolute;
+    top: 600px;
+    left: 1000px
+}
+#back5{
+    position: absolute;
+    top: 600px;
+    left: 200px
+}
+/* page 2 ends here */
+
+/* form page css starts here */
+
+
+/* form page css ends here */
