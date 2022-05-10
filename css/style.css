@@ -4,3 +4,21 @@
     width: auto;
     height: auto;
 }
+article {
+    width: 400px;
+    height: 400px;
+    background: grey;
+    margin: 10px auto;
+    padding: 20px;
+    overflow: scroll;
+    text-align: center;
+    box-shadow: 20px;
+}
+.floatleft{
+    float: left;
+    margin: 10px;
+}
+article:hover{
+    transition-duration: 1s;
+    transform: scale(1.05);
+}
