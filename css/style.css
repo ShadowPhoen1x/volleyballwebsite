@@ -29,7 +29,7 @@
 }
 nav {
     padding: 10px;
-    background-color: grey;
+    background-color: rgb(190, 186, 186);
     
 }
 header > img{
@@ -89,32 +89,32 @@ article:hover{
     transform: scale(1.10);
     opacity: 100%;
 }
-#wing{
+#pos4{
     position: absolute;
     top: 50px;
     left: 200px
 }
-#middle{
+#pos3{
     position: absolute;
     top: 50px;
     left: 750px
 }
-#opposite{
+#pos2{
     position: absolute;
     top: 50px;
     right: 250px
 }
-#back1{
+#pos1{
     position: absolute;
     top: 600px;
     right: 250px
 }
-#back6{
+#pos6{
     position: absolute;
     top: 600px;
     left: 750px
 }
-#back5{
+#pos5{
     position: absolute;
     top: 600px;
     left: 200px
