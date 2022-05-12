@@ -1,5 +1,59 @@
 /* page 1 css starts here */
+#W{
+    width: 1000px;
+    text-align: center;
+}
+.p{
+    width: 500px;
+}
+.navspace{
+    padding: 10px;
+    margin: 10px;
+}
+.floatleft2{
+   
+    clear: both;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.floatleft3{
+    float: left;
+    margin: 10px auto;
+    padding: 50px;
+    display: block;
+    
+}
+nav {
+    padding: 10px;
+    background-color: grey;
+    
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 700px;
 
+}
+body {
+    background-color: tan;
+}
+.center{
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ol {
+    list-style-position: inside;
+    text-align: center;
+  }
 
 /* page 1 css ends here */
 
@@ -11,15 +65,15 @@
     height: auto;
 }
 article {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     background: grey;
     margin: 10px auto;
     padding: 10px;
-    overflow: scroll;
     text-align: center;
     box-shadow: 20px;
     opacity: 70%;
+    overflow: scroll
 }
 article > img{
     width: 350px;
@@ -28,7 +82,7 @@ article > img{
 }
 .floatleft{
     float: left;
-    margin: 10px;
+    margin: 10px auto;
 }
 article:hover{
     transition-duration: 0.5s;
@@ -43,22 +97,22 @@ article:hover{
 #middle{
     position: absolute;
     top: 50px;
-    left: 1000px
+    left: 750px
 }
 #opposite{
     position: absolute;
     top: 50px;
-    right: 300px
+    right: 250px
 }
 #back1{
     position: absolute;
     top: 600px;
-    right: 300px
+    right: 250px
 }
 #back6{
     position: absolute;
     top: 600px;
-    left: 1000px
+    left: 750px
 }
 #back5{
     position: absolute;
@@ -68,6 +122,25 @@ article:hover{
 /* page 2 ends here */
 
 /* form page css starts here */
+input[type="text"],select,textarea{
+    width: 30%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.email{
+    width: 30%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
 
+input[type="submit"]{
+    background-color: green;
+}
 
 /* form page css ends here */
