@@ -61,8 +61,7 @@ ol {
 #net{
     background-image: url(../images/court.jpeg) ;
     background-color: #ccc;
-    width: auto;
-    height: auto;
+    background-size: cover;
 }
 article {
     width: 350px;
